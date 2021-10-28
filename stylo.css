@@ -1,0 +1,88 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  
+  .menu {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  .menu a {
+    float: left;
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .menu a:hover {
+    background-color: rgb(180, 180, 180);
+    color: black;
+  }
+  
+  
+  .content {
+    background-color: rgba(119, 119, 119, 0.911);
+    height: 700px;
+  }
+  .content h2{
+    color: cyan;
+    text-align: center;
+    padding: auto;
+    font-size: 30px;
+  }
+  .protesis{
+      max-width: 3000px;
+      height: 300px;
+  }
+  .protesis p{
+font-size: 25px;
+color: cornsilk;
+font-family: fantasy;
+text-align: center;
+margin: 15px;
+  }
+  .galery{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:#707070;
+    padding: 80px;
+  
+  }
+.tiga h2{
+color: cyan;
+text-align: center;
+padding: auto;
+font-size: 30px;
+}
+.brazo{
+  width: 304; 
+  height: 236;
+}
+.contact {
+  background-color: #646464;
+  padding: 70px;
+}
+.contact h2{
+  text-align: center;
+  color: cyan;
+  padding: auto;
+  font-size: 30px;
+  
+}
+.contact p{
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+}
+
